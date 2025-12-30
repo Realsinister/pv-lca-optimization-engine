@@ -28,7 +28,7 @@ The engine allows users to define project-specific parameters. Technical constra
 
 | Location & Physics Inputs | Optimization Strategy Selection |
 | :---: | :---: |
-| ![Inputs](assets/Set_Values_Location_1.png) |
+| ![Inputs](assets/Set_Values_Location_1.png) | ![Comparison](assets/Optimization_Weights.png) |
 | *Defining site-specific physics (e.g., Berlin)* | *Selecting MCDA weights (Cost vs. Carbon)* |
 
 ### 2. Multi-Criteria Decision Analysis (MCDA)
