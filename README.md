@@ -48,7 +48,7 @@ To account for supply chain variability and data uncertainty, the tool runs a **
 ![Risk Analysis](assets/Stochastic.png)
 
 ### 5. Data Transparency & Export
-A normalized data table provides full transparency into the underlying EPD (Environmental Product Declaration) data, allowing engineers to audit the source values and export results to CSV/JSON for external reporting.
+A normalized data table provides full transparency into the underlying EPD (Environmental Product Declaration) data, allowing engineers to audit the source values and export results to CSV for external reporting.
 
 ![Data Table](assets/Download_CSV_data.png)
 
