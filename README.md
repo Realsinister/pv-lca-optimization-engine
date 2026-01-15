@@ -1,4 +1,4 @@
-# PV LCA Optimization Engine v2.3
+# PV LCA Optimization Engine v2.4
 ### Advanced EPD Analytics & Scenario Modeling for Renewable Infrastructure
 
 ![Status](https://img.shields.io/badge/Status-Private%20%2F%20Proprietary-red)
@@ -57,6 +57,7 @@ A normalized data table provides full transparency into the underlying EPD (Envi
 ## ⚡ Key Features
 
 ### 🔧 Data Engineering & Architecture
+* **Custom Data Import (New in v 2.4):** A seamless "Interoperability Layer" allowing consultants to inject proprietary project data (e.g., specific manufacturer bids) via CSV. The system automatically normalizes raw inputs, calculating implied Efficiency and LCOE for fair market comparison.
 * **Automated Ingestion:** Python scripts with OCR capabilities to scrape and structure data from hundreds of unorganized manufacturer PDFs.
 * **Normalization Logic:** Rigorous algorithms to convert inconsistent industry units (e.g., per panel vs. per m²) into standardized functional units (per kWh, per kWp).
 * **Relational Database:** A normalized SQL schema managing 200+ turbine/module models and 80+ location profiles.
@@ -65,6 +66,16 @@ A normalized data table provides full transparency into the underlying EPD (Envi
 * **Monte Carlo Simulation:** Integrated Python libraries (`numpy`, `scipy`) to perform stochastic analysis on environmental impact data.
 * **LCOE & AEP Calculation:** Automated workflows for Annual Energy Production and Levelized Cost of Energy.
 * **Compliance:** Calculation methodologies validated against ISO 14040/44 standards.
+
+---
+
+## 📈 Dashboard Capabilities
+
+| Feature | Description |
+| :--- | :--- |
+| **Geo-Spatial Context** | Automatically adjusts energy yield and thermal loss factors based on project location (e.g., Spain vs. Sweden). |
+| **Data Interoperability** | Users can download a standardized template, input their own private data, and merge it with the master database for benchmarking. |
+| **Risk Analysis** | Visualizes the uncertainty of carbon data using probability histograms, exposing "greenwashing" risks in low-quality datasets. |
 
 ---
 
