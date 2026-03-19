@@ -11,7 +11,7 @@
 
 ## 🚀 Project Overview
 
-![Project Cover](assets/Feature_Photo.png)
+![Project Cover](assets/Feature_Photo_1.png)
 
 The **PV LCA Optimization Engine** is a full-stack decision support tool designed to streamline the environmental assessment of photovoltaic (PV) projects. By bridging the gap between raw manufacturing specifications and strategic sustainability goals, this tool reduces complex assessment timelines by approximately **60%**.
 
