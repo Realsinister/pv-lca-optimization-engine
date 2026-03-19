@@ -1,4 +1,4 @@
-# PV LCA Optimization Engine v2.4
+# PV LCA Optimization Engine v1.0
 ### Advanced EPD Analytics & Scenario Modeling for Renewable Infrastructure
 
 ![Status](https://img.shields.io/badge/Status-Private%20%2F%20Proprietary-red)
@@ -11,7 +11,7 @@
 
 ## 🚀 Project Overview
 
-![Project Cover](assets/Linkedin_Profile_Feature_Photo_1.png)
+![Project Cover](assets/Feature_Photo.png)
 
 The **PV LCA Optimization Engine** is a full-stack decision support tool designed to streamline the environmental assessment of photovoltaic (PV) projects. By bridging the gap between raw manufacturing specifications and strategic sustainability goals, this tool reduces complex assessment timelines by approximately **60%**.
 
@@ -35,17 +35,17 @@ The engine allows users to define project-specific parameters. Technical constra
 The core engine visualizes the trade-offs between **Environmental Impact (GWP)**, **Economic Cost (LCOE)**, and **Technical Efficiency**.
 The radar chart below displays the "Eco-Flagship" strategy, prioritizing low-carbon modules while monitoring cost competitiveness.
 
-![Topology](assets/Dashboard.png)
+![Topology](assets/Main_Dashboard.png)
 
 ### 3. Automated Optimization & Results
 Based on the selected strategy (e.g., *Utility Scale - Lowest LCOE*), the algorithm ranks 200+ modules and identifies the optimal hardware configuration. It calculates the specific **Carbon Intensity (gCO2e/kWh)** and **LCOE (€/MWh)** in real-time.
 
-![Optimization Results](assets/Optimization_Goal_selection.png)
+![Optimization Results](assets/Optimisation_Goal.png)
 
 ### 4. Stochastic Risk Analysis (Monte Carlo)
 To account for supply chain variability and data uncertainty, the tool runs a **Monte Carlo simulation (N=1000)**. This provides a probability distribution of the Global Warming Potential (GWP), moving beyond static integers to risk-based reporting.
 
-![Risk Analysis](assets/Stochastic.png)
+![Risk Analysis](assets/Stochastic_new.png)
 
 ### 5. Data Transparency & Export
 A normalized data table provides full transparency into the underlying EPD (Environmental Product Declaration) data, allowing engineers to audit the source values and export results to CSV for external reporting.
