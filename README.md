@@ -17,7 +17,7 @@ The **PV LCA Optimization Engine** is a full-stack decision support tool designe
 
 It was engineered to solve data interoperability issues in the renewable sector, ingesting fragmented data from unorganized manufacturer PDFs and standardizing it into a normalized, search-ready asset aligned with **EPD Hub V3** and **EN 15804+A2** standards.
 
-> **⚠️ Note on Code Access:** _This repository serves as a **technical portfolio and documentation archive**. The source code and raw datasets are **private** due to strict non-disclosure agreements (NDAs) regarding third-party environmental databases (Environdec). This entry demonstrates the tool's architecture, user interface, and analytical capabilities._
+> **⚠️ Note on Code Access:** _This repository serves as a **technical portfolio and documentation archive**. The source code and raw datasets are **private** due to strict non-disclosure agreements (NDAs) regarding third-party environmental databases Environdec and ECO Portal. This entry demonstrates the tool's architecture, user interface, and analytical capabilities._
 
 ---
 
